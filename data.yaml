@@ -1,0 +1,6 @@
+train: /home/fakecoder/Downloads/car_license_plate.v1i.yolov8/train/images
+val: /home/fakecoder/Downloads/car_license_plate.v1i.yolov8/valid/images
+test: /home/fakecoder/Downloads/car_license_plate.v1i.yolov8/test/images
+
+nc: 1
+names: ['licence']
