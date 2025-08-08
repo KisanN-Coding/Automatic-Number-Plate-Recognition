@@ -160,7 +160,7 @@ def predict(cfg):
     cfg.model = cfg.model or "yolov8n.pt"
     cfg.imgsz = check_imgsz(cfg.imgsz, min_dim=2)
 
-    # ✅ Accept webcam input (if source=0 or '0')
+    #  Accept webcam input (if source=0 or '0')
     if str(cfg.source) == "0":
         cfg.source = 0  # OpenCV needs integer not string
 
